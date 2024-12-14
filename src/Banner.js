@@ -22,7 +22,6 @@ function Banner() {
         return str?.length > n ? str.substr(0, n-1) + '...' : str; 
     }
 
-
     return (
         <header 
         className='banner'
@@ -34,7 +33,6 @@ function Banner() {
             backgroundPosition: "cover center",
         }}> 
             <div className='banner-contents'>
-                {/** title */}
                 <h1 className='banner-title'>
                     { movie?.title || movie?.name || movie?.original_name }
                 </h1>
@@ -55,4 +53,4 @@ function Banner() {
     )
 }
 
-export default Banner
+export default Banner;
