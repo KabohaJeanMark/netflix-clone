@@ -9,6 +9,10 @@ A Netflix clone project. A react project that consumes the TMDB API and display 
 |:---:|:---:|:---:|
 | Mobile view | Tablet view | Laptop view |
 
+### Trailer Playing on click 
+
+![screenshot](/src/assets/trailer.webp)
+
 ## Built With
 
 - HTML5, CSS3, & JavaScript
